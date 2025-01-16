@@ -1,0 +1,19 @@
+img * {image-rendering: pixelated !important;}
+
+img {
+   position: absolute;
+   margin-top: 10%;
+   left: 50%;
+   width: 300px;
+   height: 400px;
+   margin-left: -146px;
+   image-rendering: auto;
+   image-rendering: crisp-edges;
+   image-rendering: pixelated !important;
+}
+a {
+    
+   cursor: url(img/cursore.png), auto;
+   cursor: url(img/cursore.png), default;
+  
+  }
